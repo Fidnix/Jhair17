@@ -1,0 +1,174 @@
+\renewcommand{\baselinestretch}{1.5}
+\onehalfspacing
+\fancypagestyle{plain}{
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\chapter{Estado del arte}
+
+\section{Introducción}
+
+Este capítulo tiene por objetivo identificar estudios previos relacionados al desarrollo de videojuegos educativos; sobre todo, aquellos enfocados en los temas de Ciencia y tecnología. Para ello se realizará una revisión sistemática de literatura para 
+
+\section{Objetivos de revisión}
+
+\begin{itemize}
+    \item Conocer los conceptos esenciales sobre el desarrollo de videojuegos
+    \item Conocer los conceptos esenciales sobre los videojuegos educativos o serios
+    \item Conocer las principales mecánicas que usan los videojuegos educativos
+    \item Conocer cómo los videojuegos educativos resultan eficaces en la enseñanza de ciencia
+    \item Conocer las necesidades y retos en el aprendizaje de ciencias en escuelas rurales
+    \item Conocer las métricas que permitan comprobar la efectividad del aprendizaje
+    \item Conocer qué metodologías se utilizan en el desarrollo de videojuegos en general
+    \item Identificar la integración de elementos culturales dentro de los videojuegos
+    \item Identificar soluciones que sean videojuegos educativos orientados a enseñar ciencias en la actualidad
+\end{itemize}
+
+\section{Preguntas de revisión}
+
+La elaboración de las preguntas de revisión se realizó a partir de la metodología PICOC; en particular, mediante los criterios de población, intervención, comparación, resultados y contexto.
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|X|}
+        \hline
+        Criterio & Explicación & Descripción \\ \hline
+        Población & ¿Quién? & Estudiantes de escuelas rurales \\ \hline
+        Intervención & ¿Qué o cómo? & Videojuegos educativos \\ \hline
+        Comparación & ¿Comparado con qué? & Comparación de resultados de aprendizaje sin el uso de videojuegos y con el uso del mismo \\ \hline
+        Resultados & ¿Qué queremos lograr? & Determinar la eficacia del aprendizaje \\ \hline
+        Contexto & Educación en zonas rurales &  \\ \hline
+    \end{tabularx}
+    \caption{Tabla PICOC}
+    \label{tab:placeholder}
+\end{table}
+
+A partir de la tabla PICOC, se formulan las siguientes preguntas:
+
+\begin{enumerate}
+    \item ¿Qué elementos y metodologías existen sobre el desarrollo de videojuegos educativos?
+    \item ¿Qué mecánicas poseen los videojuegos educativos para poder enseñar temas educativos, especialmente los temas de ciencia y tecnología?
+    \item ¿Qué evidencia y metodologías de resultados existen sobre la eficacia de los videojuegos educativos en la enseñanza de ciencias en contextos rurales o con recursos limitados?
+    \item ¿Cómo los videojuegos educativos pueden integrar elementos culturales en su diseño?
+    \item ¿Qué soluciones actuales se desarrollaron para la enseñanza de ciencias mediante el uso de videojuegos educativos?
+\end{enumerate}
+
+\section{Estrategia de búsqueda}
+
+\subsection{Motores de búsqueda a usar}
+
+Se usaron los siguientes motores de búsqueda para la búsqueda de los documentos relevantes:
+
+\begin{itemize}
+    \item Scopus
+    \item IEEE Xplore
+    %  \item Web of Science
+\end{itemize}
+
+\subsection{Cadenas de búsqueda a usar}
+
+Con el propósito de encontrar documentos pertinentes para la resolución de las preguntas de revisión se utilizarán las cadenas de búsqueda; pues estas permiten encontrar información mediante cadenas lógicas.
+
+\begin{enumerate}
+    \item ("educacion inclusiva" OR "brecha educativa") AND ("grupo minoritario" OR "zona rural" OR "rural") AND ("Peru")
+    \item Cadena 1 enfocada en identificar fuentes que se refieran al desarrollo o diseño de videojuegos educativos orientados a la educación STEM: \textit{(develop* OR design*) AND (educat* OR serious*) AND (videogame* OR "video game*" OR "digital game") AND (school OR institut*) AND (instruct* OR teach* OR educat* OR learn*) AND (science OR stem)}
+    %\begin{itemize}
+    %    \item Scopus: TITLE-ABS-KEY ( ( develop* OR design* ) AND ( educat* OR serious* ) AND ( videogame* OR "video game*" OR "digital game" ) AND ( school OR institut* ) AND ( instruct* OR teach* OR educat* OR learn* ) AND ( science OR stem ) ) AND PUBYEAR > 2017 AND PUBYEAR < 2027 AND ( LIMIT-TO ( SUBJAREA , "SOCI" ) OR LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "MATH" ) OR LIMIT-TO ( SUBJAREA , "DECI" ) OR LIMIT-TO ( SUBJAREA , "ARTS" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE , "Spanish" ) )
+    %\end{itemize}
+    \item Cadena 2 enfocada en identificar fuentes que integren elementos culturales varios dentro de los videojuegos: \textit{(cultur* OR hist*) AND (educat* OR serious*) AND (videogame* OR videogame* OR "video game*" OR "digital game")}
+   % \begin{itemize}
+        %\item Scopus: TITLE-ABS-KEY ( ( cultur* OR hist* ) AND ( educat* OR serious* ) AND ( videogame* OR videogame* OR "video game*" OR "digital game" ) ) AND PUBYEAR > 2017 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE , "Spanish" ) ) AND ( LIMIT-TO ( EXACTKEYWORD , "Serious Games" ) OR LIMIT-TO ( EXACTKEYWORD , "Human Computer Interaction" ) OR LIMIT-TO ( EXACTKEYWORD , "Students" ) OR LIMIT-TO ( EXACTKEYWORD , "Video-games" ) OR LIMIT-TO ( EXACTKEYWORD , "Game Design" ) OR LIMIT-TO ( EXACTKEYWORD , "Video Games" ) OR LIMIT-TO ( EXACTKEYWORD , "E-learning" ) OR LIMIT-TO ( EXACTKEYWORD , "Game-based Learning" ) OR LIMIT-TO ( EXACTKEYWORD , "Cultural Heritages" ) OR LIMIT-TO ( EXACTKEYWORD , "Cultural Heritage" ) OR LIMIT-TO ( EXACTKEYWORD , "Learning Systems" ) OR LIMIT-TO ( EXACTKEYWORD , "Digital Game-based Learning" ) OR LIMIT-TO ( EXACTKEYWORD , "Serious Game" ) OR LIMIT-TO ( EXACTKEYWORD , "Game-based" ) )
+        %\item IEEE Xplore: (("All Metadata":"develop*" OR "All Metadata":"design*") AND ("All Metadata":"educat*" OR "All Metadata":"serious*") AND (videogame* OR "video game*" OR "digital game") AND ("All Metadata":"school") AND ("All Metadata":"teach*" OR "All Metadata":"learn*") AND ("All Metadata":"science" OR "All Metadata":"stem"))
+    %\end{itemize}
+    % \item Cadena 3 enfocada en identificar fuentes de desarrollo de videojuegos bilingües o multilingüísticos: \textit{(develop* OR design*) AND (educat* OR serious*) AND (videogame* OR "video game*" OR "digital game") AND (school OR inst*) AND (bilingual OR multilingual)}
+    \item Cadena 3 enfocado en identificar fuentes que provean información sobre el impacto o relevancia de los videojuegos serios en la educación rural: \textit{("educational game*" OR "serious game*" OR "learning game*" OR gamification) AND ( effectiveness OR impact OR efficacy OR evaluation OR outcome* OR assessment ) AND ( rural OR "rural education" OR "remote area*" OR "underserved communit*" OR "rural school*" )}
+
+    %\begin{itemize}
+     %   \item Scopus: TITLE-ABS-KEY ( ( "educational game*" OR "serious game*" OR "learning game*" OR gamification ) AND ( effectiveness OR impact OR efficacy OR evaluation OR outcome* OR assessment ) AND ( rural OR "rural education" OR "remote area*" OR "underserved communit*" OR "rural school*" ) ) AND PUBYEAR > 2017 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "SOCI" ) ) AND ( LIMIT-TO ( EXACTKEYWORD , "Gamification" ) OR LIMIT-TO ( EXACTKEYWORD , "Serious Games" ) OR LIMIT-TO ( EXACTKEYWORD , "Students" ) OR LIMIT-TO ( EXACTKEYWORD , "Serious Game" ) OR LIMIT-TO ( EXACTKEYWORD , "Game Design" ) OR LIMIT-TO ( EXACTKEYWORD , "Education" ) OR LIMIT-TO ( EXACTKEYWORD , "Engineering Education" ) OR LIMIT-TO ( EXACTKEYWORD , "Game-based Learning" ) OR LIMIT-TO ( EXACTKEYWORD , "Computer Games" ) OR LIMIT-TO ( EXACTKEYWORD , "Educational Game" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) )
+     %   \item IEEE Xplore: (("All Metadata":"develop*" OR "All Metadata":"design*") AND ("All Metadata":"educat*" OR "All Metadata":"serious*") AND ("educational game*" OR "video game*" OR "digital game") AND ("All Metadata":"school") AND ("All Metadata":"teach*" OR "All Metadata":"learn*") AND ("All Metadata":"science" OR "All Metadata":"stem"))
+    %\end{itemize}
+\end{enumerate}
+
+\subsection{Documentos encontrados}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|c|c|X|X|}
+        \hline
+        Motor de búsqueda  & Cadena 1 & Cadena 2 & Cadena 3 & Cantidad de documentos encontrados & Cantidad de documentos seleccionados \\ \hline
+        Scopus & 205 & 317 & 17 & 539 & \\ \hline
+        IEEE Xplore & 215 & 407 & 5 & 627 & \\ \hline
+        % Web of Science & & & & & \\ \hline
+    \end{tabularx}
+    \caption{Resultados de búsqueda}
+    \label{tab:placeholder}
+\end{table}
+
+\subsection{Criterios de inclusión/exclusión}
+
+Para la selección de documentos se establecieron criterios de inclusión que permiten acotar la búsqueda y asegurar la identificación de estudios pertinentes para responder las preguntas planteadas, estos criterios son:
+
+\begin{itemize}
+    \item Los documentos deben tener una antigüedad no mayor a 7 años
+    \item Se incluirán documentos que tengan por idioma el inglés o el español
+    \item Se limitará la búsqueda a documentos que estén relacionados a temas de ciencias sociales en caso de los documentos de la cadena 3, o ciencias de la computación, ingeniería y ciencias naturales en el caso de las otras cadenas
+\end{itemize}
+
+Por otra parte, se añadieron criterios de exclusión con el fin de excluir los documentos y estudios encontrados que no sean relevantes para la resolución de preguntas pertinentes, estos criterios son:
+
+\begin{itemize}
+    \item Documentos cuya fecha de publicación sea anterior a 7 años
+    \item Documentos que fueron escritas en idiomas que no sean español o inglés
+    \item Documentos sobre desarrollo de videojuegos que tratan temas relacionados a la medicina, exceptuando la psicología y salud mental
+    \item Documentos cuyos temas tratan temas de desarrollo de sistemas de inteligencia artificial o algoritmos basados en datos
+    \item Documentos cuyos temas tratan sobre sistemas de bajo nivel
+\end{itemize}
+
+\section{Formulario de extracción de datos}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        Nombre & Descripción \\ \hline
+        ID & Número de identificación del documento dentro del formulario de extracción \\ \hline
+        Título & Nombre explícito del documento \\ \hline
+        Autores & Nombre de los autores \\ \hline
+        Tipo de documento & Tipo de documento como revista, artículo, etc. \\ \hline
+        Motor de búsqueda & Motor de búsqueda de proveniencia \\ \hline
+        Lenguaje & Lenguaje con el que fue escrito el documento \\ \hline
+        Metodología & Metodología de desarrollo \\ \hline
+        Objetivo del estudio & Objetivo general del estudio \\ \hline
+        Mecánicas de juego & Mecánicas de juego usadas en el desarrollo \\ \hline
+        Metodología & Metodología de desarrollo \\ \hline
+        Tema del videojuego & En caso sea un videojuego educativo, ¿Qué temas aborda en sí? \\ \hline
+        Elementos culturales & Qué elementos están presentes de la cultura que representa, en caso tratara de ello \\ \hline
+        Logros de aprendizaje esperados & Qué competencias o aprendizajes se espera que el estudiante aprenda con el medio \\ \hline
+        Metodología de resultados & Qué pruebas se tomó en cuenta para conocer la eficacia del medio, en caso se trate de un videojuego educativo \\ \hline
+        
+    \end{tabularx}
+    \caption{Formulario de extracción}
+    \label{tab:placeholder}
+\end{table}
+
+\section{Resultados de la revisión}
+
+\begin{enumerate}
+    \item ¿Qué elementos y metodologías existen sobre el desarrollo de videojuegos educativos?
+
+    % TODO: Redactar mejor
+    En primer lugar, hablemos de los elementos presentes en el desarrollo de videojuegos. Según \cite{}, en la industria de los videojuegos se presenta mucho el tema de la reutilización, una de las formas que se presenta esto es mediante los prefabs, los cuales son plantillas que especifican de manera general el comportamiento de algún objeto dentro del videojuego para posteriormente ser editado.
+
+    % TODO: Redactar mejor
+    En segundo lugar, hablemos sobre algunas metodologías presentes en el desarrollo de videojuegos. Se tienen metodologías como GDLC o GAMED.
+    
+    \item ¿Qué mecánicas poseen los videojuegos educativos para poder enseñar temas educativos, especialmente los temas de ciencia y tecnología?
+    \item ¿Qué evidencia y metodologías de resultados existen sobre la eficacia de los videojuegos educativos en la enseñanza de ciencias en contextos rurales o con recursos limitados?
+    \item ¿Cómo los videojuegos educativos pueden integrar elementos culturales en su diseño?
+    \item ¿Qué soluciones actuales se desarrollaron para la enseñanza de ciencias mediante el uso de videojuegos educativos?
+\end{enumerate}
+
+\section{Conclusiones}

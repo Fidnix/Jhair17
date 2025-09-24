@@ -1,0 +1,113 @@
+%\renewcommand{\baselinestretch}{1.5}
+\onehalfspacing
+\fancypagestyle{plain}{
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\chapter{Generalidades}
+
+\section{Problemática}
+
+\subsection{Árbol de problemas}
+
+\begin{table}[H]
+    \centering
+    % Obs: Transformación de los problemas
+    % 2 & 3 se juntan
+    % 1 -> 2
+    \begin{tabularx}{\textwidth}{|c|X|X|X|}
+    \hline
+    % Consecuencias
+    Consecuencias & Dificultad de los alumnos para continuar sus ciclos escolares debido a la inaccesibilidad a material educativo útiles para su comprensión de los temas que requieren & Genera que muchos estudiantes continúen repitiendo ciclos escolares o, incluso, que deserten de su educación escolar & Dificultad para aprovechar las tecnologías educativas disponibles actualmente\\
+    \hline
+    % Central
+    Problema central & \multicolumn{3}{|>{\hsize=3\hsize}X|}{Los estudiantes en comunidades rurales suelen presentar dificultades en el aprendizaje de ciencias debido a la falta de materiales didácticos contextualizados y metodologías poco interactivas} \\
+    \hline
+    % Causas
+    Causas & Las escuelas rurales carecen de materiales pedagógicos para la enseñanza en las escuelas rurales según \cite[p.~136]{montes2023participacion} & Existen motivacionales en los estudiantes según \cite[p.~161]{Torres_Gonzalez_Acevedo_Correa_Gallo_Garcia_2016}. A su vez, la descontextualización curricular en la pedagogía y evaluaciones que se dan a escuelas en zonas rurales incitan a la deserción y bajo rendimiento escolar, según \cite[p.~23] {elaner_antonio_arrieta_vega_2024_13517936} & Problemas de accesibilidad a tecnologías educativas como al programa "{Aprendo en casa}", según \cite[p.~98-99]{renato_educacion} por problemas de inherentes a la infraestructura de telecomunicaciones local y el apoyo efímero estatal con respecto a estos temas \\ % En problema 2 debe ir un citado de segunda mano
+    \hline
+    \end{tabularx}
+
+    \caption{Árbol de problemas}
+    \label{tab:placeholder}
+\end{table}
+
+\subsection{Descripción}
+
+\newcounter{siglo}
+\setcounter{siglo}{20}
+
+Según \cite[p.~140-143]{elaner_antonio_arrieta_vega_2024_13517936} actualmente la enseñanza de la ciencias y las tecnologías es muy importante ya que dota a los estudiantes de capacidad en pensamiento crítico y creativo, sobre todo cuando la última mitad del siglo \Roman{siglo}, en que la ciencia y la tecnología cambiaron el modo de ver del mundo y están más presentes que nunca.
+
+No obstante, aun se existen problemas respecto a la educación rural; prueba de ello, se puede dar en las evaluaciones PISA. En primer lugar, se debe mencionar que en dichas evaluaciones se categoriza el rendimiento de los estudiantes en ciencias entre un nivel de $1$b a $6$, dependiendo de la materia correspondiente, donde se observa que en los resultados en evaluación de ciencias en las escuelas peruanas, el $52.9\%$ los estudiantes de zonas urbanas se ubicaron en el nivel 2 a más; mientras, que en las escuelas rurales, tan solo el $21.8\%$ de sus estudiantes llegan al nivel 2 a más, \cite[p.~32]{umcPISA2022presentation}. Ello refleja el bajo rendimiento que pueden estar sucediendo por diversas circunstancias en las escuelas rurales.
+
+Uno de los factores que generan y mantienen el bajo desempeño escolar de varios estudiantes es la carencia de materiales y pedagogías en varias escuelas rurales, según \cite[p.~136]{montes2023participacion}; estas carencias son a nivel estructural, accesibilidad o, lo concerniente al presente proyecto, recursos educativos. Este factor, perjudica a los estudiantes; debido a que no tienen acceso a una educación regular y, por ende, les dificulta la comprensión de temas.
+
+Por otro lado, un problema que también está presente en la realidad de las comunidades rurales es la deserción de los ciclos escolares. Esto puede tener muchos factores como la situación socioeconómica, condiciones laborales o por el contexto familiar; incluso también existen problemas motivacionales, personales y psico-afectivos que impulsan los retrocesos educativos de varios estudiantes, como lo menciona \cite{Torres_Gonzalez_Acevedo_Correa_Gallo_Garcia_2016}.
+
+Otro problema son las clases poco didácticas y además las pruebas estandarizadas que se realizan tiene poco ajuste a los contextos culturales de los estudiantes, por lo que también se vuelve en una dificultad para ellos en el tema de la educación, según \cite[p.~23]{elaner_antonio_arrieta_vega_2024_13517936}.
+
+Además, como menciona \cite{renato_educacion}, actualmente existe apoyo para la enseñanza de educación rural, una de ellas es el programa estatal "Aprendo en casa", cuya premisa es proveer educación remota originada por el estado de emergencia durante la pandemia. No obstante, no resultó ser una solución inmediata, debido a que las zonas rurales, al carecer de redes de comunicaciones, no permite el acceso a dichos programas a los estudiantes. 
+
+\subsection{Problema seleccionado}
+
+Por el árbol de problemas elaborado anteriormente, se plantea como problema central que los estudiantes en comunidades rurales suelen presentar dificultades en el aprendizaje de ciencias debido a la falta de materiales didácticos contextualizados y metodologías poco interactivas.
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+El propósito principal del presente trabajo de tesis es desarrollar un videojuego educativo enfocado a enseñar ciencias en comunidades rurales, que incorpore soporte bilingüe y presente elementos culturales regionales.
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}[label=O\arabic*.,itemsep=5pt]
+    % Obs: Identificacion de topicos
+    % Identificcacion de mecanicas de aprendizaje
+    % Catalogo de contenidos en Ciencias y tecnologías. Tmb puede ser visto como resultado
+    \item Identificación de temas principales para la enseñanza de Ciencias y Tecnología
+    \item Identificar las principales competencias requeridas para la enseñanza de Ciencias y tecnologías
+    \item Identificar mecánicas de aprendizaje que permitan a los estudiantes engancharse y automotivarse con respecto a sus estudios dentro del videojuego
+    \item Desarrollar un videojuego accesible que incorpore mecánicas de aprendizaje para enseñar Ciencias y tecnologías. Y que pueda ser utilizado con las tecnologías disponibles en comunidades rurales.
+    % Obs: Considerar dentro del diseño las mecanicas / Identificacion de catalogos
+    % Obs: Desarrollar -> Diseñar. Puede ser desarollo o construccion
+    \item Incorporar soporte bilingüe y elementos culturales en el desarrollo del videojuego para promover una enseñanza de las ciencias que contextualice la realidad de los estudiantes en comunidades rurales.
+    \item Lograr que los estudiantes de comunidades rurales cumplan las competencias en la materia de Ciencias y tecnologías establecidas en el Currículo Nacional del Perú mediante el uso de un videojuego educativo interactivo y contextualizado.
+\end{enumerate}
+
+\subsection{Resultados esperados}
+
+%%
+% \begin{enumerate}[label=O\arabic*,itemsep=5pt]
+%    \item Diseñar un videojuego educativo que integre contenidos que aporten al desarrollo de las competencias de Ciencias y Tecnologías.
+%    \begin{enumerate}[label=R\arabic{enumi}.\arabic*.]
+%        \item 
+%        \item Arquitectura del videojuego educativo
+%        \item Videojuego desarrollado
+%        \item Resultados de competencias de aprendizaje logrados mediante el videojuego
+%    \end{enumerate}
+%    \item Implementar en el videojuego mecánicas de aprendizaje con el fin de que los estudiantes fortalezcan sus motivaciones y sean más eficaces con el aprendizaje de las ciencias y tecnologías.
+%    \item Desarrollar un videojuego educativo con estrategias pedagógicas activas y adaptadas a los contextos rurales, utilizando recursos visuales, narrativas y mecánicas lúdicas que faciliten el aprendizaje significativo en entornos con escasos materiales educativos mediante el soporte bilingüe o la integración de elementos culturales.
+%\end{enumerate}
+
+\begin{enumerate}[label=R\arabic*.,itemsep=5pt]
+    \item Catalogo de temas de aprendizaje para la materia de Ciencias y tecnologías
+    \item Catalogo de competencias requeridas para la evaluación de rendimiento de aprendizaje de ciencias y tecnologías que correspondan al plan de estudios nacional del Perú en Ciencias y Tecnología
+    \item Catalogo de mecánicas de aprendizaje aplicables a videojuegos
+    \item Documento de diseño de videojuego para definir y elaborara los aspectos conceptuales y de alto nivel del videojuego educativo
+    \item Videojuego educativo para el aprendizaje de ciencias que integre soporte bilingüe e integre elementos culturales
+    % Obs: No enfocarse tanto en el tema técnico
+    % El objetivo es el aprendizaje y el diseño del videojuego
+    %\item Documento que defina y justifique la arquitectura y el diseño de software del videojuego
+    % Obs: Game design (investigarlo)
+
+    \item Resultados de cumplimiento de competencias educativas con respecto al plan de estudios nacional del Perú en Ciencias y Tecnología
+\end{enumerate}
+
+
+\subsection{Mapeo de objetivos, resultados y verificación}
+
+\section{Métodos y procedimientos}
