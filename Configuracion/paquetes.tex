@@ -70,6 +70,12 @@
 \newcommand{\asesor}{\large{\textbf{ASESOR:}}}
 \newcommand{\thesisType}{Tesis para obtener el título profesional de Ingeniero Informático} % NOMBRE DEL CURSO
 
+% Comando para mostrar R# y avanzar el contador
+\newcommand{\resultado}{%
+  \refstepcounter{resultado}%
+  R\theresultado
+}
+
 \usepackage{tocloft}
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 

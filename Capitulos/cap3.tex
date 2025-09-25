@@ -36,11 +36,11 @@ La elaboración de las preguntas de revisión se realizó a partir de la metodol
     \begin{tabularx}{\textwidth}{|c|c|X|}
         \hline
         Criterio & Explicación & Descripción \\ \hline
-        Población & ¿Quién? & Estudiantes de escuelas rurales \\ \hline
-        Intervención & ¿Qué o cómo? & Videojuegos educativos \\ \hline
-        Comparación & ¿Comparado con qué? & Comparación de resultados de aprendizaje sin el uso de videojuegos y con el uso del mismo \\ \hline
-        Resultados & ¿Qué queremos lograr? & Determinar la eficacia del aprendizaje \\ \hline
-        Contexto & Educación en zonas rurales &  \\ \hline
+        Población & ¿Quién? & Estudiantes de comunidades rurales \\ \hline
+        Intervención & ¿Qué o cómo? & Uso de un videojuego educativo diseñado con soporte bilingüe y con integración de elementos culturales propios de una comunidad \\ \hline
+        Comparación & ¿Comparado con qué? & Métodos tradicionales de enseñanza (clases magistrales, materiales impresos, dinámicas de aula sin uso de videojuegos) \\ \hline
+        Resultados & ¿Qué queremos lograr? & Mejora en la comprensión de conceptos de ciencia, incremento en la motivación y el compromiso con el aprendizaje \\ \hline
+        Contexto & Educación en zonas rurales & Educación en comunidades rurales con condiciones de acceso limitado a tecnología y necesidad de reforzar aprendizajes científicos \\ \hline
     \end{tabularx}
     \caption{Tabla PICOC}
     \label{tab:placeholder}
@@ -65,7 +65,8 @@ Se usaron los siguientes motores de búsqueda para la búsqueda de los documento
 \begin{itemize}
     \item Scopus
     \item IEEE Xplore
-    %  \item Web of Science
+    \item Web of Science
+    \item Dialnet % verify
 \end{itemize}
 
 \subsection{Cadenas de búsqueda a usar}
@@ -73,7 +74,7 @@ Se usaron los siguientes motores de búsqueda para la búsqueda de los documento
 Con el propósito de encontrar documentos pertinentes para la resolución de las preguntas de revisión se utilizarán las cadenas de búsqueda; pues estas permiten encontrar información mediante cadenas lógicas.
 
 \begin{enumerate}[label=\textbf{Cadena \arabic*},leftmargin=6em]
-    \item (``educacion inclusiva'' OR ``brecha educativa'') AND (``grupo minoritario'' OR ``zona rural'' OR ``rural'') AND (``Peru'')
+    \item enfocada en identificar fuentes que permitan conocer los desafìos actuales de la educación rural: \textit{(``educacion inclusiva'' OR ``brecha educativa'') AND (``grupo minoritario'' OR ``zona rural'' OR ``rural'') AND (``Peru'')}
     \item enfocada en identificar fuentes que se refieran al desarrollo o diseño de videojuegos educativos orientados a la educación STEM: \textit{(develop* OR design*) AND (educat* OR serious*) AND (videogame* OR ``video game*'' OR ``digital game'') AND (school OR institut*) AND (instruct* OR teach* OR educat* OR learn*) AND (science OR stem)}
     %\begin{itemize}
     %    \item Scopus: TITLE-ABS-KEY ( ( develop* OR design* ) AND ( educat* OR serious* ) AND ( videogame* OR "video game*" OR "digital game" ) AND ( school OR institut* ) AND ( instruct* OR teach* OR educat* OR learn* ) AND ( science OR stem ) ) AND PUBYEAR > 2017 AND PUBYEAR < 2027 AND ( LIMIT-TO ( SUBJAREA , "SOCI" ) OR LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "MATH" ) OR LIMIT-TO ( SUBJAREA , "DECI" ) OR LIMIT-TO ( SUBJAREA , "ARTS" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE , "Spanish" ) )
@@ -96,11 +97,13 @@ Con el propósito de encontrar documentos pertinentes para la resolución de las
 
 \begin{table}[H]
     \centering
-    \begin{tabularx}{\textwidth}{|c|c|c|c|X|X|}
+    \begin{tabularx}{\textwidth}{|c|c|c|c|c|X|X|}
         \hline
-        Motor de búsqueda  & Cadena 1 & Cadena 2 & Cadena 3 & Cantidad de documentos encontrados & Cantidad de documentos seleccionados \\ \hline
-        Scopus & 205 & 317 & 17 & 539 & \\ \hline
-        IEEE Xplore & 215 & 407 & 5 & 627 & \\ \hline
+        Motor de búsqueda  & Cadena 1 & Cadena 2 & Cadena 3 & Cadena 4 & Cantidad de documentos encontrados & Cantidad de documentos seleccionados \\ \hline
+        Scopus & - &  205 & 317 & 17 & 539 & \\ \hline
+        IEEE Xplore & - & 215 & 407 & 5 & 627 & \\ \hline
+        Web of Science & - & 215 & 407 & 5 & 627 & \\ \hline
+        Dialnet & 100 & - & - & - & - & \\ \hline
         % Web of Science & & & & & \\ \hline
     \end{tabularx}
     \caption{Resultados de búsqueda}
@@ -115,6 +118,7 @@ Para la selección de documentos se establecieron criterios de inclusión que pe
     \item Los documentos deben tener una antigüedad no mayor a 7 años
     \item Se incluirán documentos que tengan por idioma el inglés o el español
     \item Se limitará la búsqueda a documentos que estén relacionados a temas de ciencias sociales en caso de los documentos de la cadena 3, o ciencias de la computación, ingeniería y ciencias naturales en el caso de las otras cadenas
+    \item Para el caso de Web of Science, se incluirán los primeros 200 documentos encontrados
 \end{itemize}
 
 Por otra parte, se añadieron criterios de exclusión con el fin de excluir los documentos y estudios encontrados que no sean relevantes para la resolución de preguntas pertinentes, estos criterios son:
@@ -151,7 +155,7 @@ Por otra parte, se añadieron criterios de exclusión con el fin de excluir los 
         
     \end{tabularx}
     \caption{Formulario de extracción}
-    \label{tab:placeholder}
+    \label{tab:definicion_formulario_de_extraccion}
 \end{table}
 
 \section{Resultados de la revisión}
