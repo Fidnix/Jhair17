@@ -17,7 +17,8 @@ jobs:
       - name: Download assets
         run: |
           pip install gdown
-          gdown --folder https://drive.google.com/drive/folders/<ID>
+          gdown --folder https://drive.google.com/drive/folders/1zPFoGc9vfNByYZ5PXyEiCm55MnYDYCHE?usp=drive_link
+          mv tesis-imagenes Imagenes
 
       # 3. Instalar y comparar LaTeX
       - name: Compile LaTeX document
